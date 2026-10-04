@@ -73,7 +73,7 @@ if st.button("تشغيل الوكيل الذكي 🚀"):
             try:
                 client = genai.Client(api_key=api_key.strip())
                 response = client.models.generate_content(
-                    model="gemini-2.5-flash",
+                    model="gemini-3.8-flash",
                     contents=prompt,
                 )
                 
